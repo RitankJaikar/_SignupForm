@@ -1,0 +1,114 @@
+:root {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .form-container {
+    width: 68%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-container form input:focus-visible {
+    outline: 0px;
+}
+
+.form-container form input::placeholder {
+    color: white;
+}
+
+.form-container form input {
+    padding: 10px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+}
+
+.form-container button {
+    padding: 10px;
+    width: 200px;
+    margin-top: 40px;
+}
+
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    header, footer {
+        display: block;
+    }
+
+    footer nav ul li {
+        margin: 0 6px;
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKmU583x9hFJkwsDNy-DyLlZpD1R6J-E0IA&s">
+</head>
+<body>
+    <header>
+        <h2 style="line-height: 32px;">Welcome to the <span style="display: inline-block;">Signup Page</span></h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h1 style="font-weight: 500; font-size: 44px;">Signup</h1>
+            <form>
+                <input required type="text" placeholder="Full Name">
+                <input required type="email" placeholder="Email">
+                <input required type="password" placeholder="Password">
+                <input required type="password" placeholder="Confirm Password">
+                <input required type="date">
+                <div>
+                    <input required type="radio" name="about" value="student" id="student">
+                    <label for="student">Student</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input required type="radio" name="about" value="employee" id="employee">
+                    <label for="employee">Employee</label>
+                </div>
+                <div>
+                    <input required type="checkbox" id="tnc">
+                    <label for="tnc">I agree to all the Terms and Conditions</label>
+                </div>
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
